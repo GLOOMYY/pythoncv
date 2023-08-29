@@ -1,0 +1,20 @@
+{% extends 'core/base.html' %}
+{% block title %} Inicio {% endblock %}
+
+{% block content %}
+
+<div class='Eso de bootstrap'>
+    Cargando...
+</div>
+
+<script type="text/javascript">
+    setTimeout(
+        function() {
+            window.location.href = '/accounts/login';
+        }, 2000
+    );
+</script>
+
+{% endblock %}
+
+{% comment %} Hacer view, template, urls.py {% endcomment %}
